@@ -18,7 +18,7 @@ This procedure will seamlessly join a Windows EC2 instance to your directory\.
 
    1. For **Network**, choose the VPC that your directory was created in\.
 
-   1. For **Subnet**, select one of the public subnets in your VPC\. The subnet you select must have all external traffic routed to an Internet gateway\. If this is not the case, you won't be able to connect to the instance remotely\.
+   1. For **Subnet**, select one of the public subnets in your VPC\. The subnet you select must have all external traffic routed to an Internet gateway\. 
 
    1. For **Auto\-assign Public IP**, choose **Enable** \(if the subnet setting is not set to enable by default\)\. For more information about public and private IP addressing, see [Amazon EC2 Instance IP Addressing](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-instance-addressing.html) in the *Amazon EC2 User Guide for Linux Instances*\.
 
